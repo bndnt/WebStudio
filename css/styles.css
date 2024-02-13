@@ -8,7 +8,6 @@ svg use svg{
   }
 
 body{
-    
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -1050,7 +1049,7 @@ background-color: white;
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    display: block;
+    
 }
 .popup__form-label-span-text{
     width: calc(100% - 16px - 8px);

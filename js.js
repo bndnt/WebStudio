@@ -12,14 +12,14 @@ openSubscriptionPopup.addEventListener('click', function(e){
     e.preventDefault();
     bg.classList.add('is-open');
     subscriptionPopup.classList.add('is-open');
-    document.body.classList.add("no-csroll");
+    document.body.classList.add("no-scroll");
 }) 
 
 closeSubscriptionPopup.addEventListener('click', function(e){
     e.preventDefault();
     subscriptionPopup.classList.remove('is-open');
     bg.classList.remove('is-open');
-    document.body.classList.remove("no-csroll");
+    document.body.classList.remove("no-scroll");
 })
 // buttonSubscriptionPopup.addEventListener('click', function(e){
 //     e.preventDefault();
@@ -39,7 +39,7 @@ openMobPopup.addEventListener('click', function(e){
     e.preventDefault();
     openMobPopup.classList.add('active');
     mobPopup.classList.add('active');
-    document.body.classList.remove('no-scroll');
+    document.body.classList.add('no-scroll');
 })
 
 closeMobPopup.addEventListener('click', function(e){
